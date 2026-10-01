@@ -15,9 +15,9 @@ restart_apps() {
   sleep 1
   open /Applications/AltTab.app
 
-  pkill -f Whispering
-  sleep 1
-  open /Applications/Whispering.app
+  # pkill -f Whispering
+  # sleep 1
+  # open /Applications/Whispering.app
 }
 
 lock_microphone_volume() {
